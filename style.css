@@ -96,6 +96,11 @@ body {
     background
 }
 
+#bolt {
+    float: right;
+    margin-right: 5%;
+    padding-top: 100px;
+}
 .main-section {
     background-color: #fff;
     opacity: 0.7;
