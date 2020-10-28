@@ -1,0 +1,56 @@
+#laptopPic {
+  background-image: url(./photos/laptopcrop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+#frontPage {
+  margin-left: auto;
+  margin-right: auto;
+  /* position: absolute; */
+}
+#name {
+  font-family: "Marcellus", serif;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 12%;
+  font-size: 50px;
+}
+
+#description {
+  font-family: "Marcellus", serif;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  font-size: 25px;
+}
+
+#clickHere {
+  text-align: center;
+  position: absolute;
+  bottom: 8%;
+  font-family: "Marcellus", serif;
+  color: white;
+}
+
+.glow {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px black, 0 0 40px black,
+      0 0 50px black, 0 0 60px black, 0 0 70px black;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px black, 0 0 40px black, 0 0 50px black,
+      0 0 60px black, 0 0 70px black, 0 0 80px black;
+  }
+}
