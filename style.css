@@ -14,7 +14,7 @@
   font-family: "Marcellus", serif;
   color: white;
   text-align: center;
-  top: 12%;
+  margin-top: 12%;
   font-size: 50px;
 }
 
@@ -22,18 +22,22 @@
   font-family: "Marcellus", serif;
   color: white;
   text-align: center;
-  top: 25%;
+  margin-top: 2%;
   font-size: 25px;
 }
 
 #clickHere {
-  text-align: center;
   font-family: "Marcellus", serif;
   color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  margin: auto
 }
 
 .glow {
-  color: #fff;
+  color: #fff; 
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
