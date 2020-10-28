@@ -55,3 +55,16 @@
       0 0 60px black, 0 0 70px black, 0 0 80px black;
   }
 }
+
+body {
+  background-color: black;
+}
+
+#contactIcon {
+  color: pink;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
