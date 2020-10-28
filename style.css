@@ -4,7 +4,6 @@
   background-attachment: fixed;
   background-size: cover;
   background-size: 100% 100%;
-  border: 5px solid #555;
 }
 #frontPage {
   margin-left: auto;
@@ -61,10 +60,25 @@ body {
 }
 
 #contactIcon {
+  margin-top: 25%;
+  margin-left: 25%;
+  margin-right: 25%;
   color: pink;
   color: #fff;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
+}
+
+#contactName {
+  font-family: "Marcellus", serif;
+  color: white;
+  font-size: 45px;
+}
+
+#color {
+  background-image: url(./photos/colorsplash.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
