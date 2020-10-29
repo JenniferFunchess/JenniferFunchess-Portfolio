@@ -126,3 +126,35 @@ body {
 .font {
     font-family: "Marcellus", serif;
 }
+
+#contactPageBackground {
+    background-image: url(./photos/bolt.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+#quizPic{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+#searchUPic {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%; 
+}
+
+#schedulePic{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%; 
+}
+
+#passwordPic {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%; 
+}
