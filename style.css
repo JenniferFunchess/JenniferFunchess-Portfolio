@@ -141,20 +141,37 @@ body {
     margin-top: 10%;
 }
 
+#quizPic:hover {
+    transform: scale(1.5); 
+    opacity: 0.7;
+  }
+
 #searchUPic {
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 10%; 
 }
+#searchUPic:hover {
+    transform: scale(1.5); 
+    opacity: 0.7;
+  }
 
 #schedulePic{
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 10%; 
 }
+#schedulePic:hover {
+    transform: scale(1.5); 
+    opacity: 0.7;
+  }
 
 #passwordPic {
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 10%; 
 }
+#passwordPic:hover {
+    transform: scale(1.5); 
+    opacity: 0.7;
+  }
