@@ -74,13 +74,15 @@ body {
 #contactName {
   font-family: "Marcellus", serif;
   color: white;
-  font-size: 45px;
+  font-size: 40px;
+  text-align: center;
 }
 
 #color {
-  background-image: url(./photos/colorsplash.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  text-align: center;
+  color:white;
+  font-family: "Marcellus", serif;
+  margin-top: 5%;
 }
 
 #contactClick {
